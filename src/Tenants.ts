@@ -1,4 +1,4 @@
-import { AxiosInstance } from 'axios';
+import { AxiosInstance } from "axios";
 
 class Tenants {
   private http: AxiosInstance;
@@ -8,7 +8,7 @@ class Tenants {
   }
 
   public async list(): Promise<string[]> {
-    const response = await this.http.get('/admin/v2/tenants');
+    const response = await this.http.get("/admin/v2/tenants");
     return response.data;
   }
 }

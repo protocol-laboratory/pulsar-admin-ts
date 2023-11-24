@@ -1,5 +1,5 @@
-import PulsarAdmin from './PulsarAdmin';
+import PulsarAdmin from "./PulsarAdmin";
 
 export default PulsarAdmin;
-export * from './Tenants';
-export * from './Namespaces';
+export * from "./Tenants";
+export * from "./Namespaces";
