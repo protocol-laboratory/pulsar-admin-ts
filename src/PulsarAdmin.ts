@@ -1,6 +1,6 @@
-import axios, { AxiosInstance } from 'axios';
-import Tenants from './Tenants';
-import Namespaces from './Namespaces';
+import axios, { AxiosInstance } from "axios";
+import Tenants from "./Tenants";
+import Namespaces from "./Namespaces";
 
 interface PulsarAdminConfig {
   host: string;
